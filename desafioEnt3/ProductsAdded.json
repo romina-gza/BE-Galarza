@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "remera",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/201472-800-auto?v=638107008425630000&width=800&height=auto&aspect=true",
+    "code": "abc1",
+    "stock": 25
+  },
+  {
+    "id": 2,
+    "title": "remera",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/204904-800-auto?v=638149275925630000&width=800&height=auto&aspect=true",
+    "code": "abc2",
+    "stock": 25
+  },
+  {
+    "id": 3,
+    "title": "remera",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/202984-800-auto?v=638128632568600000&width=800&height=auto&aspect=true",
+    "code": "abc3",
+    "stock": 25
+  },
+  {
+    "id": 4,
+    "title": "mochila",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/189252-1000-NaN?v=637856440450930000&width=1000&height=NaN&aspect=true",
+    "code": "abc4",
+    "stock": 25
+  },
+  {
+    "id": 5,
+    "title": "riñonera",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/189679-800-auto?v=637871107706470000&width=800&height=auto&aspect=true",
+    "code": "abc5",
+    "stock": 25
+  },
+  {
+    "id": 6,
+    "title": "borcegos",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/201860-800-auto?v=638114578153600000&width=800&height=auto&aspect=true",
+    "code": "abc6",
+    "stock": 25
+  },
+  {
+    "id": 7,
+    "title": "polera",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/206162-800-auto?v=638203661067800000&width=800&height=auto&aspect=true",
+    "code": "abc7",
+    "stock": 25
+  },
+  {
+    "id": 8,
+    "title": "campera",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/194239-800-auto?v=637963424042600000&width=800&height=auto&aspect=true",
+    "code": "abc8",
+    "stock": 25
+  },
+  {
+    "id": 9,
+    "title": "campera",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/204303-1000-NaN?v=1773258613&width=1000&height=NaN&aspect=true",
+    "code": "abc9",
+    "stock": 25
+  },
+  {
+    "id": 10,
+    "title": "remera",
+    "description": "Este es un producto prueba",
+    "price": 200,
+    "thumbnail": "https://street47.vtexassets.com/arquivos/ids/201732-800-auto?v=638107898091130000&width=800&height=auto&aspect=true",
+    "code": "abc10",
+    "stock": 25
+  }
+]
