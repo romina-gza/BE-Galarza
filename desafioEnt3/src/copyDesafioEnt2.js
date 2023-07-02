@@ -49,9 +49,9 @@ export default class ProductManager {
             if (limit) {
                 return this.products.slice(0, limit);
             }
-        
             return this.products;
-            } catch (err) {
+            
+        } catch (err) {
             console.log('No se encontro el archivo, se devuelve vacio');
             return this.products;
             }

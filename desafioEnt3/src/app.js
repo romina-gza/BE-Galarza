@@ -1,4 +1,4 @@
-import express, { request, response } from 'express'
+import express from 'express'
 
 const app = express()
 const {default: ProductManager } = await import('./copyDesafioEnt2.js')
@@ -28,18 +28,21 @@ const serverInit = async () => {
 
     const escape = await factory.getProducts();
     
-    app.get('/products', (request, response) => {
+    app.get('/products', async (request, response) => {
       let limit = parseInt(request.query.limit);
+      
       console.log('es limit ', limit);
       let escapeLimit;
     
       if (!limit || isNaN(limit)) {
+        console.log('es escape: ', escape)
         escapeLimit = escape;
       } else {
-        escapeLimit = factory.getProducts(limit);
+        escapeLimit = await factory.getProducts(limit);
+        console.log('es escapeLimit: ', escapeLimit)
       }
     
-      response.send({ escape: escapeLimit });
+      response.send({ escapeLimit });
     } )
 
     app.listen(8080, ()=> console.log('escuchando en puerto 8080 ...'))
