@@ -1,0 +1,32 @@
+[
+  {
+    "title": "jeans",
+    "description": "sin descripcion",
+    "code": "02",
+    "price": 102,
+    "status": true,
+    "stock": 12,
+    "category": "jeans",
+    "id": 1
+  },
+  {
+    "title": "bolso",
+    "description": "sin descripcion",
+    "code": "02",
+    "price": 102,
+    "status": true,
+    "stock": 12,
+    "category": "bugs",
+    "id": 2
+  },
+  {
+    "title": "bolso",
+    "description": "sin descripcion",
+    "code": "03",
+    "price": 1,
+    "status": true,
+    "stock": 1,
+    "category": "bolsos",
+    "id": 3
+  }
+]
